@@ -1,6 +1,6 @@
 def Decode(Map):
     arqC=open("codificado.txt","r")
-    arqD=open("descodificacao.txt","w")
+    arqD=open("descodificado.txt","w")
     linha=arqC.read()
     strTemp=""
     for i in range(0,len(linha)):
