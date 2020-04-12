@@ -33,7 +33,5 @@ def GenMap():
     return Map
     
 if __name__ == "__main__":
-    print(GenMap())
     Decode(GenMap())
-    pass
 
