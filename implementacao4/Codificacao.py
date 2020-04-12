@@ -20,7 +20,7 @@ def CriaCodigo(caracter, codigo):
                 codigo += '1'
 
             if x == PegaRaiz():
-                print(codigo)
+                #print(codigo)
                 return codigo
 
             return CriaCodigo(x, codigo)
